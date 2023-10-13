@@ -92,7 +92,7 @@ const LoginPage = () => {
         {/* Register if new */}
         <div className="text-[#8A8A8A] mt-8 flex justify-center gap-1 text-[18px]">
           New at K-Goods?
-          <Link to="/registration" className="text-blue-500 hover:underline">
+          <Link to="/register" className="text-blue-500 hover:underline">
             {" "}
             Register
           </Link>
