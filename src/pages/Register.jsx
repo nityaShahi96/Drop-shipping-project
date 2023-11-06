@@ -21,7 +21,7 @@ const Register = () => {
 
   return (
     <div className="flex">
-      <div className="w-[300px] bg-gray-200 h-screen shadow-gray-500 shadow-xl fixed overflow-y-auto">
+      <div className="w-[300px] bg-gray-200 h-screen shadow-gray-500 shadow-lg fixed overflow-y-auto">
         <h1 className="text-center font-bold text-4xl pt-14 pb-14">K Goods</h1>
         <div className="flex flex-col mt-[60px] text-xl gap-20 ml-16">
           <div className="flex items-center gap-2 mb-6">
@@ -54,7 +54,7 @@ const Register = () => {
           </div>
         </div>
       </div>
-      <div className="p-10 ml-[300px]">{componentToDisplay}</div>
+      <div className="ml-[300px] w-full">{componentToDisplay}</div>
     </div>
   );
 };
