@@ -2,8 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
+import ApplyButton from "./ApplyButton";
 
 const PersonalInfo = () => {
   return (
@@ -134,12 +133,8 @@ const PersonalInfo = () => {
           </Box>
         </div>
       </div>
-      <div className="m-10">
-        <Stack spacing={2} direction="row">
-          <Button variant="contained" className="m-auto w-[250px]">
-            Apply
-          </Button>
-        </Stack>
+      <div>
+        <ApplyButton />
       </div>
     </div>
   );
